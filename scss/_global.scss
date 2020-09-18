@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+ html{
+    font-size: 62.5%;
+ }
+
+//Mobile
+@mixin mobile{
+    @media only screen and (max-width:375px){
+        @content;
+    }
+}
+
+@mixin desktop{
+    @media only screen and (max-width:1440px){
+        @content;
+    }
+}
+
+
+// Colors
+//Primary
+$primary-red: hsl(12, 88%, 59%);
+$primary-blue: hsl(228, 39%, 23%);
+//Secondary
+$secondary-blue: hsl(227, 12%, 61%);
+$secondary-blue-2: hsl(233, 12%, 13%);
+$secondary-red:  hsl(13, 100%, 96%);
+$secondary-red-2:hsl(0, 0%, 98%);
+
+//Typography
+$basefontsize: 10rem;
+### Font
+
+- Family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam)
+- Weights: 400, 500, 700
+
+## Icons
+
+For the social icons, you can use the icons provided or a font icon library. Some suggestions for font icon libraries can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
