@@ -32,22 +32,6 @@
      font-size: 1.4rem;
  }
 
-
- /* @mixin mobile{
-     @media only screen and (max-width:375px){
-         @content;
-     }
- }
- 
- @mixin desktop{
-     @media only screen and (max-width:1440px){
-         @content;
-     }
- } */
-
-
-
-
 header{
     display: flex;
     justify-content: space-between;
@@ -65,6 +49,10 @@ nav ul{
     display: inline-block;
     font-size: 1.6rem;
     margin: 0 5px;
+}
+
+.burguer__menu{
+    display: none;
 }
 
 button{
@@ -390,7 +378,9 @@ h4{
 .lista-4 input{
     grid-column-start: 1;
     grid-column-end: 1;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: none;
+    width: 130px;
 }
 
 .lista-4 p{
@@ -399,3 +389,4 @@ h4{
     display: inline;
     font-size: .8rem;
 }
+
